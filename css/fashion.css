@@ -1,0 +1,45 @@
+/* fashion.css */
+
+#content {
+  height: auto;
+}
+
+/* 헤더 영역 */
+#content > header {
+  text-align: center;
+  padding: 10px 0;
+}
+#content > header h1 {
+  text-transform: uppercase;
+}
+
+/* 대표이미지 */
+figure { 
+  text-align: center;
+/*  border: 2px solid red;*/
+  margin-bottom: 10px;
+}
+figure > img { 
+  display: inline-block!important; 
+}
+
+/* 작은 이미지 */
+#content .img_list li { 
+  float: left;
+  width: 11.1875%;
+  margin: 0px 0 0px 15px;
+}
+#content .img_list li:nth-child(1) {
+  margin: 0px 0 0px 0px;
+}
+#content .img_list img {
+  width: 100%;
+}
+
+/* 작은 이미지 hover */
+#content .img_list li img {
+  transition-duration: 0.3s
+}
+#content .img_list li:hover img {
+  opacity: 0.5;
+}
